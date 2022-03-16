@@ -9,7 +9,7 @@ sudo make apt_get
 
 ### Install requirements
 ```bash
-sudo make install
+sudo make requirements
 ```
 
 ### Run client and server directly
