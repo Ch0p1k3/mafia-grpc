@@ -14,7 +14,6 @@ sudo make requirements
 
 ### Run client and server directly
 ```bash
-sudo make requirements
 RUN_ARGS="--host 0.0.0.0 --port 50051" make server
 RUN_ARGS="--host 0.0.0.0 --port 50051 --nickname name" make client
 ```
