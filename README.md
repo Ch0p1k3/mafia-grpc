@@ -1,4 +1,4 @@
-# Socket voice chat
+# Mafia
 
 This is simple voice chat on TCP socket. Whole installation under python3.9. You can install it in Ubuntu/Debian using `make install_python3.9`.
 
