@@ -1,6 +1,6 @@
 # Mafia
 
-This is simple voice chat on TCP socket. Whole installation under python3.9. You can install it in Ubuntu/Debian using `sudo make install_python3.9`.
+This is mafia game. Whole installation under python3.9. You can install it in Ubuntu/Debian using `sudo make install_python3.9`.
 
 ### Install dependencies for Linux/Debian
 ```bash
