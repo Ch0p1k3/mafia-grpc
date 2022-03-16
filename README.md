@@ -15,13 +15,13 @@ sudo make install
 ### Run client and server directly
 ```bash
 sudo make requirements
-RUN_ARGS="--host 0.0.0.0 --port 10080" make server
-RUN_ARGS="--host 0.0.0.0 --port 10080 --username name" make client
+RUN_ARGS="--host 0.0.0.0 --port 50051" make server
+RUN_ARGS="--host 0.0.0.0 --port 50051 --username name" make client
 ```
 
 ### Docker image of server
 ```bash
-docker run -p 10080:10080 --rm -it ch0p1k/sockets --host 0.0.0.0 --port 10080
+docker run -p 50051:50051 --rm -it ch0p1k/mafia --host 0.0.0.0 --port 50051
 ```
 To run in backend process - add `-d` flag
 
